@@ -47,5 +47,22 @@ public class Example10
         System.out.println("s2 + s1 : " + s3);
 
 
+        String s4 = new String("BUZZZ FIZZZ BUZZZ FIZZZ");
+        String s5 =  s4.replace('Z','T');
+        System.out.println("Original String : " + s4);
+        System.out.println("Replaced String : " + s5);
+
+
+        String url = "www.youtube.com/moon-walk-michael-jackson";
+        boolean isStarted =  url.startsWith("www");
+        System.out.println(isStarted);
+
+        boolean endsWith =  url.endsWith("jackson");
+        System.out.println("ends with : " + endsWith);
+
+        String s6 = "www.youthube.com";
+        char symbol =  s6.charAt(3);
+        System.out.println("Symbol Present At Index 3 : " + symbol);
+
     }
 }
